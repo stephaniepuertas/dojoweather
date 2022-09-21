@@ -1,0 +1,84 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.container{
+    width: 970px;
+    height: auto;
+}
+/* navbar attributes */
+.navbar{
+    width: 970px;
+    height: 84px;
+    display: flex;
+    background-color: rgb(107, 149, 222);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 15px;
+}
+.cities{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    margin-right: 50px;
+}
+
+/* subheader attributes */
+.sub{
+    display:flex;
+    justify-content: space-between;
+    padding: 64px;
+    width: 700px;
+    border-bottom: solid;
+    align-items: center;
+    margin-left: 79px;
+    
+}
+.temp{
+    display: flex;
+}
+/* card formatting */
+.mainbody{
+    display:flex;
+} 
+.day{
+    margin-top: 20px;
+}
+/* image resize */
+.img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0px;
+}
+/* card resize */
+.card{
+    margin: 20px; 
+    text-align: center;
+    height:336px;
+    width: 225px;
+    border: silver solid 1px;
+    background-color:lightgrey
+}
+/* degrees adjustments */
+.degree{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* degrees coloring */
+.fahrenheit, .two{
+    color:red;
+    font-weight: bold;  
+}
+.celsius{
+    color:royalblue;
+    font-weight: bold;
+}
+    
+
+
+
+
+

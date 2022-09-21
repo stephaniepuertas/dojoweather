@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- beginning of container-->
+    <div class="container">
+        <!-- start of navbar -->
+        <div class="navbar">
+            <h1> DojoWeather</h1>
+            <div class="cities">
+                <p onclick= "alert('This page says: Loading weather report.....')" >Burbank</p>
+                <p onclick= "alert('This page says: Loading weather report.....')" >Chicago</p>
+                <p onclick= "alert('This page says: Loading weather report.....')" >Dallas</p>
+            </div>
+        </div>
+        <!-- start of subheader -->
+        <div class="sub">
+            <h2> San Jose </h2>
+            <div class="temp">
+                <p> show temperature in </p>
+                <select onchange="toggle(this)" name="temperature" id="temperature">
+                    <option value="Cel">C°</option>
+                    <option value="Fah">F°</option>
+                </select>
+            </div>
+            <!-- end of subheader -->
+        </div>
+        <!-- start of mainbody -->
+        <div class="mainbody">
+            <!-- card1-->
+            <div class="card">
+                <h1 class="day"> Today </h1>
+                <img class="img" src="./image/some_rain.png" alt="some rain icon">
+                <h2> some rain</h2>
+                <div class="degree">
+                    <h3 class="two" > 18°</h3>
+                    <h3 class="three"> 24°</h3>
+                </div>
+            </div>
+            <!-- card2 -->
+            <div class="card">
+                <h1 class="day"> Tomorrow </h1>
+                <img class="img" src="./image/some_sun.png" alt="some sun icon">
+                <h2> some sun</h2>
+                <div class="degree">
+                    <h3 class="four"> 27°</h3>
+                    <h3 class="five"> 19°</h3>
+                </div>
+            </div> 
+            <!-- card 3 -->
+            <div class="card">
+                <h1 class="day"> Friday </h1>
+                <img class="img" src="./image/some_clouds.png" alt="some clouds icon">
+                <h2> some clouds</h2>
+                <div class="degree">
+                    <h3 class="six"> 21°</h3>
+                    <h3 class="seven"> 16°</h3>
+                </div>
+            </div> 
+            <!-- card 4 -->
+            <div class="card">
+                <h1 class="day"> Saturday </h1>
+                <img class="img" src="./image/some_sun.png" alt="some sun icon">
+                <h2> some sun</h2>
+                <div class="degree">
+                    <h3 class="eight"> 26°</h3>
+                    <h3 class="nine"> 21°</h3>
+                </div>
+            </div> 
+            <!-- end of mainbody -->
+        </div>
+        <!-- end of container -->
+    </div>
+    <script src="main.js"> </script>
+</body>
+</html>
